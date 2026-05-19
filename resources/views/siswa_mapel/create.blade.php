@@ -36,7 +36,7 @@
                 <div class="col-md-6">
                     <div class="mb-3">
                         <label>Tahun Ajaran</label>
-                        <input type="text" name="tahun_ajaran" class="form-control" placeholder="2024/2025" required>
+                        <input type="text" name="tahun_ajaran" class="form-control"required>
                     </div>
                 </div>
                 <div class="col-md-6">

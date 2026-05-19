@@ -14,7 +14,7 @@
             <div class="mb-3">
                 <label class="form-label">Nama Kelas <span class="text-danger">*</span></label>
                 <input type="text" name="nama_kelas" class="form-control @error('nama_kelas') is-invalid @enderror" 
-                       value="{{ old('nama_kelas') }}" required maxlength="10" placeholder="Contoh: A, B, C, D, E atau F">
+                       value="{{ old('nama_kelas') }}" required maxlength="10" placeholder="Contoh: A, B, C">
                 @error('nama_kelas')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
@@ -23,6 +23,7 @@
             <div class="mb-3">
                 <label class="form-label">Tingkat <span class="text-danger">*</span></label>
                 <select name="tingkat" class="form-control @error('tingkat') is-invalid @enderror" required>
+                    <option value="">- Pilih Kelas -</option>
                     <option value="X" {{ old('tingkat') == 'X' ? 'selected' : '' }}>X (Sepuluh)</option>
                     <option value="XI" {{ old('tingkat') == 'XI' ? 'selected' : '' }}>XI (Sebelas)</option>
                     <option value="XII" {{ old('tingkat') == 'XII' ? 'selected' : '' }}>XII (Dua Belas)</option>
@@ -46,7 +47,6 @@
                 @error('jurusan')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
-                <small class="text-muted">Jurusan untuk Sekolah Menengah Kejuruan (SMK)</small>
             </div>
             
             <div class="mt-3">

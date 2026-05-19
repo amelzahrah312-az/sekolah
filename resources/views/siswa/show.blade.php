@@ -39,7 +39,7 @@
 
 <div class="card">
     <div class="card-header bg-primary text-white">
-        <h5 class="mb-0"><i class="bi bi-book"></i> Mata Pelajaran yang Diambil (Many-to-Many)</h5>
+        <h5 class="mb-0"><i class="bi bi-book"></i> Mata Pelajaran yang Diambil </h5>
     </div>
     <div class="card-body">
         <table class="table table-sm">

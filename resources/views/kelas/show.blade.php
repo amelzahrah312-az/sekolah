@@ -32,7 +32,7 @@
                         <td>
                             @php
                                 $jurusanMap = [
-                                    'PPLG' => 'PPLG' (Pengembangan Perangkat Lunak dan Gim)',
+                                    'PPLG' => 'PPLG (Pengembangan Perangkat Lunak dan Gim)',
                                     'DKV' => 'DKV (Desain Komunikasi Visual)',
                                     'PH' => 'PH (Perhotelan)',
                                     'KLN' => 'KLN (Kuliner)',

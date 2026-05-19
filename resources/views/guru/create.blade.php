@@ -18,7 +18,7 @@
                 @error('nip')
                     <div class="invalid-feedback">{{ $message }}</div>
                 @enderror
-                <small class="text-muted">Nomor Induk Pegawai (unik)</small>
+                <small class="text-muted">Nomor Induk Pegawai </small>
             </div>
             
             <div class="mb-3">
