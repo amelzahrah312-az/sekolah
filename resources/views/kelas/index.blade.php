@@ -50,7 +50,7 @@
                                 ];
                             @endphp
                             @if($k->jurusan && isset($jurusanMap[$k->jurusan]))
-                                <span class="badge bg-primary">{{ $jurusanMap[$k->jurusan] }}</span>
+                                {{ $jurusanMap[$k->jurusan] }}
                             @else
                                 <span class="text-muted">{{ $k->jurusan ?? '-' }}</span>
                             @endif

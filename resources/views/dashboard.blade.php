@@ -90,11 +90,11 @@
                                 <td><strong>{{ $k->nama_kelas }}</strong></td>
                                 <td>
                                     @if($k->tingkat == 'X')
-                                        <span class="badge bg-primary">X</span>
+                                        X
                                     @elseif($k->tingkat == 'XI')
-                                        <span class="badge bg-info">XI</span>
+                                        XI
                                     @else
-                                        <span class="badge bg-success">XII</span>
+                                        XII
                                     @endif
                                 </td>
                                 <td>
@@ -114,7 +114,7 @@
                                     @php
                                         $jumlah = $k->siswas ? $k->siswas->count() : 0;
                                     @endphp
-                                    <span class="badge bg-primary">{{ $jumlah }} Siswa</span>
+                                    {{ $jumlah }} Siswa
                                 </td>
                             </tr>
                             @empty
